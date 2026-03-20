@@ -1,0 +1,1 @@
+docker run -d -p 8080:80 --name mon-service-front -e WS_BACK_URL=http://localhost:5001 clarissebln/mon-front
